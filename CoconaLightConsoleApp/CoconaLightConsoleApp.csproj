@@ -8,11 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cocona" Version="2.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Services\Services.csproj" />
+    <PackageReference Include="Cocona.Lite" Version="2.0.3" />
   </ItemGroup>
 
 </Project>

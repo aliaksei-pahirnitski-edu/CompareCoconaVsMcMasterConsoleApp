@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoconaConsoleApp", "CoconaConsoleApp\CoconaConsoleApp.csproj", "{3442E0F3-3E04-473A-A68E-52779B4458A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoconaConsoleApp", "CoconaConsoleApp\CoconaConsoleApp.csproj", "{3442E0F3-3E04-473A-A68E-52779B4458A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{9CF1D1AA-81C3-4E54-981E-144D52D972B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainImplConsoleApp", "PlainImplConsoleApp\PlainImplConsoleApp.csproj", "{8CA07EEF-9358-4361-B7CD-0F003AFD2745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoconaLightConsoleApp", "CoconaLightConsoleApp\CoconaLightConsoleApp.csproj", "{93173BAC-7969-4B99-8A66-4814221EC48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McMasterConsoleApp", "McMasterConsoleApp\McMasterConsoleApp.csproj", "{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{3442E0F3-3E04-473A-A68E-52779B4458A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3442E0F3-3E04-473A-A68E-52779B4458A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3442E0F3-3E04-473A-A68E-52779B4458A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF1D1AA-81C3-4E54-981E-144D52D972B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF1D1AA-81C3-4E54-981E-144D52D972B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF1D1AA-81C3-4E54-981E-144D52D972B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF1D1AA-81C3-4E54-981E-144D52D972B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA07EEF-9358-4361-B7CD-0F003AFD2745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA07EEF-9358-4361-B7CD-0F003AFD2745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA07EEF-9358-4361-B7CD-0F003AFD2745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA07EEF-9358-4361-B7CD-0F003AFD2745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93173BAC-7969-4B99-8A66-4814221EC48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93173BAC-7969-4B99-8A66-4814221EC48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93173BAC-7969-4B99-8A66-4814221EC48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93173BAC-7969-4B99-8A66-4814221EC48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
