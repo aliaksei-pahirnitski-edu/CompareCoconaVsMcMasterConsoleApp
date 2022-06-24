@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlainImplConsoleApp", "PlainImplConsoleApp\PlainImplConsoleApp.csproj", "{8CA07EEF-9358-4361-B7CD-0F003AFD2745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoconaLightConsoleApp", "CoconaLightConsoleApp\CoconaLightConsoleApp.csproj", "{93173BAC-7969-4B99-8A66-4814221EC48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoconaLightConsoleApp", "CoconaLightConsoleApp\CoconaLightConsoleApp.csproj", "{93173BAC-7969-4B99-8A66-4814221EC48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McMasterConsoleApp", "McMasterConsoleApp\McMasterConsoleApp.csproj", "{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McMasterConsoleApp", "McMasterConsoleApp\McMasterConsoleApp.csproj", "{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{6B0FE32D-FC56-48FA-B361-FEB24155492B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9276F2D8-90E0-478C-9B8E-DBCAA9A133DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0FE32D-FC56-48FA-B361-FEB24155492B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0FE32D-FC56-48FA-B361-FEB24155492B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0FE32D-FC56-48FA-B361-FEB24155492B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0FE32D-FC56-48FA-B361-FEB24155492B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
