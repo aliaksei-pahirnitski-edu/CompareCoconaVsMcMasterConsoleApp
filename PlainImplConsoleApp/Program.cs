@@ -69,7 +69,7 @@ namespace CompareMcMasterVsCoconaConsoleApp
             switch (command)
             {
                 case "hallo":
-                    var name = args.Length > 1 ? args[1] : "Friend";
+                    var name = args.Length > 2 ? args[2] : "Friend";
                     Console.WriteLine($"Hi {name}");
                     return;
 

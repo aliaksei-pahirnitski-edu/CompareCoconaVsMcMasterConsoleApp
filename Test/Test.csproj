@@ -20,4 +20,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoconaConsoleApp\CoconaConsoleApp.csproj" />
+    <ProjectReference Include="..\CoconaLightConsoleApp\CoconaLightConsoleApp.csproj" />
+    <ProjectReference Include="..\McMasterConsoleApp\McMasterConsoleApp.csproj" />
+    <ProjectReference Include="..\PlainImplConsoleApp\PlainImplConsoleApp.csproj" />
+  </ItemGroup>
+
 </Project>
