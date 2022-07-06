@@ -34,6 +34,7 @@ namespace CompareMcMasterVsCoconaConsoleApp
         // 4 - order of params ex: blog add --title=A --text=B vs blog add --text=B --title=A 
         // 5 - order of options and params, extra spaces, params without name and etc (blog list -c 2)
         // 6 - sub-commands
+        // 7 - array of arguments -i A1 -i A2 -i B3
 
         static async Task Main(string[] args)
         {

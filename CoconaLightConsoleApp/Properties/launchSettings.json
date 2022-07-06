@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoconaLightConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "test-exc \"some test\""
+    }
+  }
+}

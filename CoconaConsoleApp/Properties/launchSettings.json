@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoconaConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "blog --help"
+    }
+  }
+}

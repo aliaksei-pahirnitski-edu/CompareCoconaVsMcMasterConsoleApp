@@ -4,6 +4,7 @@ using Services.EF;
 using System;
 using Services.Interfaces;
 using Services.Impl;
+using System.Collections.Generic;
 
 namespace Services
 {
@@ -22,7 +23,7 @@ namespace Services
                 opt.UseInMemoryDatabase("CompareConsoleApp");
             });
         }
-        public static void AddSqLiteBlogs(this IServiceCollection services)
+        public static void AddSqLiteBlogs(this IServiceCollection/*IList<ServiceDescriptor>*/ services)
         {
             services.AddDbContext<BlogContext>(opt =>
             {
