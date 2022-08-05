@@ -61,10 +61,10 @@ namespace CompareMcMasterVsCoconaConsoleApp
             dbCtx.TrySeedIfEmpty();
 
             var testCommentFinder = services.GetRequiredService<ISearchCommentsService>();
-            var _comments = await testCommentFinder.Search("comment");
+            // var _comments = await testCommentFinder.Search("comment");
 
             var testBlogService = services.GetRequiredService<IBlogService>();
-            var _blogs = await testBlogService.ListBlogs(2);
+            //  var _blogs = await testBlogService.ListBlogs(2, false);
 
             var command = args[0];
             switch (command)
@@ -101,7 +101,13 @@ namespace CompareMcMasterVsCoconaConsoleApp
                     return;
 
                 case "blog":
-                    Console.WriteLine("todo blog");
+                    Console.WriteLine("selecting 2 latest blogs without comments");
+                    var topBlogs = await testBlogService.ListBlogs(2, false);
+                    Console.WriteLine($"Found [{topBlogs.Count}] blogs");
+                    foreach (var blog in topBlogs)
+                    {
+                        Console.WriteLine($"[Blog {blog.Id}]: [{blog.CreatedAt:yyyy-MM-dd HH:mm}] {blog.Title} ");
+                    }
                     return;
 
                 default:

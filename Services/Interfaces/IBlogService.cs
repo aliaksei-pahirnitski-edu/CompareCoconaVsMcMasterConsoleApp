@@ -9,6 +9,6 @@ namespace Services.Interfaces
 {
     public interface IBlogService
     {
-        Task<List<Blog>> ListBlogs(int topCount);
+        Task<List<Blog>> ListBlogs(int topCount, bool withComments);
     }
 }

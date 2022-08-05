@@ -19,9 +19,14 @@ namespace Services.Impl
             _dbCtx = dbContext;
         }
 
-        public async Task<List<Blog>> ListBlogs(int topCount)
+        public async Task<List<Blog>> ListBlogs(int topCount, bool withComments)
         {
-            return await _dbCtx.Blogs.OrderByDescending(x => x.CreatedAt).Take(topCount).ToListAsync();
+            var blogQuery = _dbCtx.Blogs.AsNoTracking();
+            if (withComments)
+            {
+                blogQuery = blogQuery.Include(b => b.Comments);
+            }
+            return await blogQuery.OrderByDescending(x => x.CreatedAt).Take(topCount).ToListAsync();
         }
     }
 }
